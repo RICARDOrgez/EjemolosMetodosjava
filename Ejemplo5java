@@ -1,0 +1,14 @@
+package sin_retorno_sin_parametro;
+
+public class ejemplo5 {
+	public static void main (String args []){
+		Ingieneria();
+		EnSistemasComputacionales();
+	}
+public static void Ingieneria(){
+	System.out.println("Igieneria");
+}
+public static void EnSistemasComputacionales(){
+	System.out.println("En Sistemas Computacionales");	
+}
+}
