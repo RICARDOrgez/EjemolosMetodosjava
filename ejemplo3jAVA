@@ -1,0 +1,14 @@
+package sin_retorno_sin_parametro;
+
+public class ejemplo3 {
+public static void main(String args[]){
+	Ricardo();
+	Rodriguez();
+}
+public static void Ricardo(){
+	System.out.println("Nombre: Ricardo");
+}
+public static void Rodriguez(){
+	System.out.println("Apellido: Rodriguez");
+}
+}
