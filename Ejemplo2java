@@ -1,0 +1,14 @@
+package sin_retorno_sin_parametro;
+
+public class ejemplo2 {
+public static void main(String args[]){
+	texto2();
+	texto3();
+}
+public static void texto2(){
+	System.out.println("texto2");
+}
+public static void texto3(){
+	System.out.println("texto3");
+}
+}
