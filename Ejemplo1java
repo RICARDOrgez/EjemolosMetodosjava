@@ -1,0 +1,14 @@
+package sin_retorno_sin_parametro;
+
+public class ejemplo1 {
+public static void main (String args []){
+	sinparametro1();
+	sinretorno1();
+}
+public static void sinparametro1(){
+	System.out.println("sin parametro 1");
+}
+public static void sinretorno1(){
+	System.out.println("sin retorno 1");
+}
+}
