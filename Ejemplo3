@@ -1,0 +1,17 @@
+package sin_retorno_con_parametro;
+
+public class ejemplo3 {
+	public static void main (String args []){
+		resta(65, 15);
+		suma(98, 32);
+	}
+public static void resta (int g, int h){
+	int resta= g - h;
+	System.out.println("resta : "+resta);
+}
+public static void suma (int k, int o){
+	int suma = k + o;
+	System.out.println("suma : "+suma);
+	
+}
+}
