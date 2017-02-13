@@ -1,0 +1,17 @@
+package sin_retorno_con_parametro;
+
+public class ejemplo4 {
+	public static void main (String args []){
+		multiplicacion(50, 2);
+		divición(60, 3);
+	}
+	public static void multiplicacion(int a, int b){
+		int multiplicacion= a * b;
+		System.out.println("multiplicacion : "+multiplicacion);
+	}
+	public static void divición(int f, int e){
+		int divición= f / e;
+		System.out.println("divición : "+divición);
+	}
+
+}
