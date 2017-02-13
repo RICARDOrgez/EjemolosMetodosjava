@@ -1,0 +1,23 @@
+package sin_retorno_con_parametro;
+
+public class ejemplo5 {
+	public static void main (String args []){
+		suma(53,32);
+		multiplicacion(98,3);
+		resta(53,74);
+	}
+	public static void suma(int a , int b){
+		int suma=a + b;
+		System.out.println("suma : "+suma);
+	}
+	
+	public static void multiplicacion(int c, int d){
+		int multiplicacion=c * d;
+		System.out.println("multiplicacion : "+multiplicacion);
+	}
+	
+	public static void resta(int e , int f){
+		int resta = e - f;
+		System.out.println("resta : "+resta);
+	}
+}
