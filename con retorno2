@@ -1,0 +1,15 @@
+package con_retorno_sin_parametro;
+
+public class ejemplo2 {
+	public static void main (String args []){
+		
+		int resul;
+		resul = dividir();
+		System.out.println("la divicion es : "+resul);
+	}
+	public static int dividir(){
+		int a=8, b=2;
+		int div = a / b;
+		return div;
+	}
+}
