@@ -1,0 +1,15 @@
+package con_retorno_sin_parametro;
+
+public class ejemplo3 {
+	public static void main (String args []){
+		
+		int resul;
+		resul = resta();
+		System.out.println("la resta es : "+resul);
+	}
+	public static int resta(){
+		int a=35, b=13;
+		int resta = a - b;
+		return resta;
+	}
+}
