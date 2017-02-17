@@ -1,0 +1,15 @@
+package con_retorno_sin_parametro;
+
+public class ejemplo5 {
+	public static void main (String args []){
+		
+		int resul;
+		resul = multiplicacion();
+		System.out.println("la multiplicacion es : "+resul);
+	}
+	public static int multiplicacion(){
+		int a=30, b=2;
+		int multi = a * b;
+		return multi;
+	}
+}
