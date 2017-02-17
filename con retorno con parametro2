@@ -1,0 +1,19 @@
+package con_retorno_con_parametro;
+
+public class ejemplo2 {
+	public static void main (String args[]){
+		
+		int resul;
+		resul = dividir(50,2);
+		imprimir(resul);
+	}
+	public static int dividir(int a , int b){
+		int div = a / b;
+		return div;
+	}
+	public static void imprimir(int z){
+		System.out.println("la divicion es: "+z);
+		
+	}
+
+}
