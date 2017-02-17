@@ -1,0 +1,19 @@
+package con_retorno_con_parametro;
+
+public class ejemplo4 {
+	public static void main (String args[]){
+		
+		int resul;
+		resul = resta(76,14);
+		imprimir(resul);
+	}
+	public static int resta(int a , int b){
+		int resta = a - b;
+		return resta;
+	}
+	public static void imprimir(int z){
+		System.out.println("la resta es: "+z);
+		
+	}
+
+}
