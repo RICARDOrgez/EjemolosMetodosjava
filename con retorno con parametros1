@@ -1,0 +1,19 @@
+package con_retorno_con_parametro;
+
+public class ejemplo1 {
+	public static void main (String args[]){
+		
+		int resul;
+		resul = multiplicar(9,3);
+		imprimir(resul);
+	}
+	public static int multiplicar(int a , int b){
+		int multi = a * b;
+		return multi;
+	}
+	public static void imprimir(int z){
+		System.out.println("la multiplicacion es: "+z);
+		
+	}
+
+}
