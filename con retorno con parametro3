@@ -1,0 +1,19 @@
+package con_retorno_con_parametro;
+
+public class ejemplo3 {
+	public static void main (String args[]){
+		
+		int resul;
+		resul = sumar(30,40);
+		imprimir(resul);
+	}
+	public static int sumar(int a , int b){
+		int suma = a + b;
+		return suma;
+	}
+	public static void imprimir(int z){
+		System.out.println("la suma es: "+z);
+		
+	}
+
+}
